@@ -1,0 +1,165 @@
+/* ==========================
+   GOOGLE FONT IMPORT
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/* ==========================
+   RESET DEFAULT STYLES
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================
+   BODY
+========================== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    background-color: #ffffff;
+}
+
+
+/* ==========================
+   ANNOUNCEMENT BAR
+========================== */
+
+.announcement-bar {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+/* ==========================
+   NAVIGATION BAR
+========================== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+/* Logo */
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+
+.nav-links a:hover {
+    color: #777;
+}
+
+
+/* Search Bar */
+
+.search-form input {
+    padding: 10px 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 25px;
+}
+
+
+/* Icons */
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-icons a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #f5f5f5;
+}
+
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.hero-content h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+/* Hero Buttons */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.hero-buttons a {
+    text-decoration: none;
+
+    background-color: #111;
+    color: white;
+
+    padding: 15px 30px;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+
+.hero-buttons a:hover {
+    background-color: #444;
+}
